@@ -3,9 +3,9 @@ import React from "react";
 export default function YuwamLandingPage() {
   const sections = [
     {
-      title: "Yuwam Book 1 - Complete Competitive Exam Guide",
-      desc: "Yuwam's latest competitive exam book provides the complete syllabus in a smart and organized manner. This book features detailed theory, chapter-wise MCQs, previous year questions, and expert strategies. Every topic is explained in simple language to ensure easy understanding for students. The book includes 5000+ practice questions, 100+ solved examples, and time-saving techniques to maximize your preparation efficiency.",
-      img: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop",
+      title: "Active Fluency Adjectives",
+      desc: "Adjectives are the describing words. They are used to modify nouns by using them before a noun or after the linking verbs that follow a noun or pronoun. To achieve true fluency in spoken English, we should have a clear idea of what adjectives can be used with what nouns, i.e. acceptable combinations of Adjective + Noun. This book gives you a comprehensive list of Adjective + Noun combinations that are commonly used in spoken English.",
+      img: "./Adjective.png",
       reverse: false,
       features: [
         "Complete syllabus coverage with smart learning approach",
@@ -16,9 +16,9 @@ export default function YuwamLandingPage() {
       ]
     },
     {
-      title: "Yuwam Practice Set - Daily Preparation Kit",
-      desc: "Enhance your preparation to the next level with daily practice sets. Each set contains 100 carefully selected questions designed according to the latest exam patterns. Improve your time management skills, increase accuracy, and experience real exam-like conditions. The package includes 30 comprehensive practice sets with detailed solutions and personalized performance analysis reports to track your progress effectively.",
-      img: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&h=400&fit=crop",
+      title: "Synonyms and Antonyms",
+      desc: "Synonyms and Antonyms form an important part of English vocabulary. Questions about synonyms and antonyms frequently appear in almost all the competitive and academic exams. Hence, a student with a good vocabulary has a better chance of success in competitive as well as academic exams.",
+      img: "./Antonyms.png",
       reverse: true,
       features: [
         "30 comprehensive practice sets",
@@ -29,9 +29,9 @@ export default function YuwamLandingPage() {
       ]
     },
     {
-      title: "Yuwam Special Edition - Advanced Level MCQs",
-      desc: "This limited edition Yuwam book is specially designed for students aiming to excel in high-level competitive exams. It features advanced level MCQs, challenging problems, and complex concepts that push your boundaries. The book contains 2000+ advanced MCQs, conceptual questions, and brain teasers that prepare you for the toughest competitions. Perfect for students who want to secure top ranks in national level examinations.",
-      img: "https://images.unsplash.com/photo-1622493373945-3b3a8a561a83?w=600&h=400&fit=crop",
+      title: "English Fluency Course",
+      desc: "To learn to speak English fluently and confidently, you will have to master all the Sentence Structures of the English language. We have devised a unique and innovative pattern of sentence structures presented in a tabular form with a precise word order called 'Automatic Sentence Generating Tables'. With the help of these tables, a person can frame hundreds of grammatically correct sentences directly in English without being conscious of grammar and even without thinking in one's mother tongue. The book is a product of years of research and hands-on experience of its author.",
+      img: "./english_fluency.jpeg",
       reverse: false,
       features: [
         "2000+ advanced level MCQs",
@@ -42,9 +42,9 @@ export default function YuwamLandingPage() {
       ]
     },
     {
-      title: "Yuwam Notes - Expert Faculty Handwritten Material",
-      desc: "Access handwritten notes from top faculty members that provide significant help in examinations. These notes are the result of years of teaching experience and cover all important examination points. They include short tricks, formulas, important facts, and revision notes in a colorful presentation format that makes learning easy and memorable. Perfect for last-minute revision and quick concept recall during exam preparation.",
-      img: "https://plus.unsplash.com/premium_photo-1715588660566-b42ef42fde8d?w=600&h=400&fit=crop",
+      title: "English Grammar",
+      desc: "Grammar is the life blood of the English language. If grammar aspects are not taken care of, we cannot write and speak correct English. Hence, it has become very important to acquire in-depth knowledge of English grammar. We have designed a unique course of English grammar that will help you pass any exam easily by building a strong foundation. The course is highly learner friendly and has everything you need to master perfect grammar.",
+      img: "Grammar.png",
       reverse: true,
       features: [
         "Expert faculty handwritten notes",
@@ -55,9 +55,9 @@ export default function YuwamLandingPage() {
       ]
     },
     {
-      title: "Yuwam Mega Guide - All-in-One Preparation Package",
-      desc: "The ultimate all-in-one guide that combines comprehensive theory with extensive practice material. This complete package covers the entire syllabus, including chapter-wise notes, practice questions, mock tests, and previous year papers - all in a single book. Suitable for students from beginner to advanced levels, with special focus on frequently asked questions and high-scoring topics that can maximize your examination performance.",
-      img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&h=400&fit=crop",
+      title: "High Level Vocabulary",
+      desc: "A decent knowledge of vocabulary helps a student perform better in exams and make an impressive career growth. Our book covers a wide range of advanced level words incorporating synonyms, antonyms and one word substitutions highly useful for all competitive exams.",
+      img: "HLV.png",
       reverse: false,
       features: [
         "Complete theory and practice combination",
@@ -68,9 +68,61 @@ export default function YuwamLandingPage() {
       ]
     },
     {
-      title: "Yuwam Quick Revision - Last Minute Preparation",
-      desc: "The perfect book for last-minute revision before examinations. All important formulas, definitions, concepts, and facts are compiled in one place for quick recall. Specially designed for rapid revision, this book is compact enough to carry to the examination hall. Complex concepts are presented in simple ways through charts, tables, and diagrams, making it ideal for final preparation and confidence building before exams.",
-      img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      title: "Active Fluency Verbs",
+      desc: "Verbs are the words that generally denote actions, states and possessions. They play such a major role in English that no sentence can be framed without a verb. To be fluent in English, simply knowing the meaning of a verb is not enough. We must know what nouns a verb can occur with, i.e. the meaningful combinations of various Verbs and Nouns. This book gives you a comprehensive collection of Verb + Noun combinations on which the true frequency depends.",
+      img: "Verb.png",
+      reverse: true,
+      features: [
+        "Complete theory and practice combination",
+        "Beginner to advanced level coverage",
+        "Mock tests and previous year papers",
+        "Frequently asked questions focus",
+        "High-scoring topics emphasis"
+      ]
+    },
+    {
+      title: "Learn Correct Pronunciation",
+      desc: "Pronunciation is the life blood of spoken English. Generally, we learn the pronunciation of English words in two ways - 1. By listening, or 2. As for the spelling of the word, but these are not the reliable ways all the time. To master the perfect pronunciation, you must acquaint yourself with the International Phonetic Alphabet and also refer to some good dictionaries.",
+      img: "Pronouns.png",
+      reverse: false,
+      features: [
+        "Complete theory and practice combination",
+        "Beginner to advanced level coverage",
+        "Mock tests and previous year papers",
+        "Frequently asked questions focus",
+        "High-scoring topics emphasis"
+      ]
+    },
+    {
+      title: "Idioms & Phrases",
+      desc: "Idioms and Phrasal Verbs form an integral part of English vocabulary. They are also one of the important parts of various competitive exams. Remember, idioms and phrasal verbs are a combination of at least two or more words having a single meaning and often it is not possible to guess the meaning of an idiom or a phrasal verb from the words it contains.",
+      img: "YUWAM_271.png",
+      reverse: true,
+      features: [
+        "Complete theory and practice combination",
+        "Beginner to advanced level coverage",
+        "Mock tests and previous year papers",
+        "Frequently asked questions focus",
+        "High-scoring topics emphasis"
+      ]
+    },
+     {
+      title: "A Dictionary Of Fluency Words",
+      desc: "The UK residents who have undergone a full 16 years of education use merely about 5000 words in a speech and up to 10000 words in written communication  -The Guinness Book of World records. Vocabulary is unarguably the most important part of any language and therefore, it is given pre-eminence in our course. The purpose of this book is to help you achieve a greater command of fluency oriented words. These words are normally sufficient to maintain a good frequency in English irrespective of the topic. ",
+      img: "words.jpeg",
+      reverse: false,
+      features: [
+        "Quick recall focused content",
+        "Charts, tables and diagrams",
+        "Important formulas and definitions",
+        "Exam hall carry friendly",
+        "Last-minute confidence building"
+      ]
+    },
+     {
+      title: "Active Fluency Nouns",
+      desc: "Nouns are the words that refer to people, animals, places, things, and abstract ideas. They are generally used as subjects in sentences or objects of verbs or prepositions. To be fluent in English, we must very well know what verbs they can occur with. This book gives you noun-wise combinations of Verb + Noun and also Adjective + Noun combinations commonly used in everyday English. ",
+      img: "nouns.jpeg",
       reverse: true,
       features: [
         "Quick recall focused content",
@@ -80,22 +132,72 @@ export default function YuwamLandingPage() {
         "Last-minute confidence building"
       ]
     },
+    // {
+    //   title: "Yuwam Quick Revision - Last Minute Preparation",
+    //   desc: "The perfect book for last-minute revision before examinations. All important formulas, definitions, concepts, and facts are compiled in one place for quick recall. Specially designed for rapid revision, this book is compact enough to carry to the examination hall. Complex concepts are presented in simple ways through charts, tables, and diagrams, making it ideal for final preparation and confidence building before exams.",
+    //   img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+    //   reverse: true,
+    //   features: [
+    //     "Quick recall focused content",
+    //     "Charts, tables and diagrams",
+    //     "Important formulas and definitions",
+    //     "Exam hall carry friendly",
+    //     "Last-minute confidence building"
+    //   ]
+    // }
+   
   ];
 
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 to-gray-100">
       {/* Hero Section */}
-      <div className="w-full bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 text-center">
-        <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-6">Yuwam Publications</h1>
-          <p className="text-xl mb-8 opacity-90">
-            India's Most Trusted Competitive Exam Preparation Books
-          </p>
-          <p className="text-lg max-w-2xl mx-auto leading-relaxed">
-            Quality content, expert guidance, and proven results - Achieve new heights in your preparation with Yuwam's comprehensive study materials designed for success in competitive examinations.
-          </p>
-        </div>
+   <div className="w-full bg-gradient-to-r from-[#4b79a1] to-[#283e51] text-white py-4 text-center">
+  <div className="max-w-4xl mx-auto px-6">
+
+    {/* Logo */}
+    <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.4)] border-4 border-white/20">
+      <img
+        src="/yuwam-icon.png"
+        alt="Yuwam Logo"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    {/* Heading */}
+    <h1 className="text-6xl font-bold mb-2 tracking-wide drop-shadow-lg">
+      Yuwam Publications
+    </h1>
+
+    <p className="text-2xl mb-6 opacity-95 font-light">
+      India’s Most Trusted Competitive Exam Preparation Books
+    </p>
+
+    <p className="text-lg max-w-2xl mx-auto leading-relaxed opacity-95 mb-2 ">
+      Quality content, expert guidance, and proven results — Achieve new heights
+      in your preparation with Yuwam’s comprehensive study materials designed
+      for success in competitive examinations.
+    </p>
+
+    {/* Contact Section */}
+    <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl inline-block shadow-xl">
+      <div className="flex flex-col items-center gap-1 text-base leading-relaxed">
+        <p className="flex items-center gap-2">
+          <span className="text-xl">📞</span> +91 7073999036
+        </p>
+        <p className="flex items-center gap-2">
+          <span className="text-xl">📧</span> yuwampublications@gmail.com
+        </p>
+        <p className="flex items-center gap-2 text-center">
+          <span className="text-xl">📍</span> 63 Near ICIC Bank, Ambabari Shopping
+          Center, Ambabari, Jaipur-302039, Rajasthan, India
+        </p>
       </div>
+    </div>
+
+  </div>
+</div>
+
+
 
       {/* Dynamic Sections */}
       <div className="max-w-7xl mx-auto py-20 space-y-24 px-4">
@@ -108,11 +210,11 @@ export default function YuwamLandingPage() {
           >
             {/* Image */}
             <div className="w-full md:w-1/2">
-              <img
-                src={sec.img}
-                alt={sec.title}
-                className="w-full rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
-              />
+            <img
+  src={sec.img}
+  alt={sec.title}
+  className="w-150  h-100 object-contain rounded-2xl   hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
+/>
             </div>
 
             {/* Content */}
@@ -123,7 +225,7 @@ export default function YuwamLandingPage() {
               <p className="text-gray-700 text-lg leading-relaxed mb-8">
                 {sec.desc}
               </p>
-              <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-500">
+              {/* <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-500">
                 <h4 className="font-semibold text-blue-800 mb-3 text-lg">
                   Key Features:
                 </h4>
@@ -135,7 +237,7 @@ export default function YuwamLandingPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
@@ -164,12 +266,63 @@ export default function YuwamLandingPage() {
       </div>
 
       {/* Footer */}
-      <div className="w-full bg-gray-900 text-white py-8 text-center">
+    <div className="w-full bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <p className="text-lg mb-4">© 2025 Yuwam Publications. All Rights Reserved.</p>
-          <p className="text-gray-400">
-            Leading the way in competitive exam preparation since 2010
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-8 mb-8">
+            {/* Contact Info */}
+            <div className="text-center md:text-left">
+              <h3 className="text-xl font-semibold mb-4 text-orange-400">Contact Information</h3>
+              <div className="space-y-3 text-gray-300">
+                <div className="flex items-center justify-center md:justify-start gap-3">
+                  <span className="text-xl">📞</span>
+                  <span>+91 7073999036</span>
+                </div>
+                <div className="flex items-center justify-center md:justify-start gap-3">
+                  <span className="text-xl">📧</span>
+                  <span>yuwampublications@gmail.com</span>
+                </div>
+                <div className="flex items-start justify-center md:justify-start gap-3">
+                  <span className="text-xl mt-1">📍</span>
+                  <span>63 Near ICIC Bank, Ambabari Shoping Center, Ambabari, Jaipur-302039, Rajasthan, India</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            {/* <div className="text-center">
+              <h3 className="text-xl font-semibold mb-4 text-orange-400">Quick Links</h3>
+              <div className="space-y-2 text-gray-300">
+                <a href="#" className="block hover:text-orange-400 transition-colors duration-300">Our Books</a>
+                <a href="#" className="block hover:text-orange-400 transition-colors duration-300">Study Materials</a>
+                <a href="#" className="block hover:text-orange-400 transition-colors duration-300">Success Stories</a>
+                <a href="#" className="block hover:text-orange-400 transition-colors duration-300">Contact Us</a>
+              </div>
+            </div> */}
+
+            {/* Social Media */}
+            <div className="text-center md:text-right">
+              <h3 className="text-xl font-semibold mb-4 text-orange-400">Follow Us</h3>
+              <div className="flex justify-center md:justify-end space-x-4">
+                {['🌐', '📘', '📸', '🐦'].map((icon, index) => (
+                  <a
+                    key={index}
+                    href="#"
+                    className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-xl hover:bg-orange-500 transition-all duration-300 transform hover:scale-110"
+                  >
+                    {icon}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Copyright */}
+          <div className="text-center pt-8 border-t border-gray-700">
+            <p className="text-lg mb-2">© 2025 Yuwam Publications. All Rights Reserved.</p>
+            <p className="text-gray-400">
+              Leading the way in competitive exam preparation since 2010
+            </p>
+          </div>
         </div>
       </div>
     </div>
