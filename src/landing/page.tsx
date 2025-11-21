@@ -1,3 +1,4 @@
+import { FacebookIcon, Instagram, Twitter, Youtube } from "lucide-react";
 import React from "react";
 
 export default function YuwamLandingPage() {
@@ -106,7 +107,7 @@ export default function YuwamLandingPage() {
         "High-scoring topics emphasis"
       ]
     },
-     {
+    {
       title: "A Dictionary Of Fluency Words",
       desc: "The UK residents who have undergone a full 16 years of education use merely about 5000 words in a speech and up to 10000 words in written communication  -The Guinness Book of World records. Vocabulary is unarguably the most important part of any language and therefore, it is given pre-eminence in our course. The purpose of this book is to help you achieve a greater command of fluency oriented words. These words are normally sufficient to maintain a good frequency in English irrespective of the topic. ",
       img: "words.jpeg",
@@ -119,7 +120,7 @@ export default function YuwamLandingPage() {
         "Last-minute confidence building"
       ]
     },
-     {
+    {
       title: "Active Fluency Nouns",
       desc: "Nouns are the words that refer to people, animals, places, things, and abstract ideas. They are generally used as subjects in sentences or objects of verbs or prepositions. To be fluent in English, we must very well know what verbs they can occur with. This book gives you noun-wise combinations of Verb + Noun and also Adjective + Noun combinations commonly used in everyday English. ",
       img: "nouns.jpeg",
@@ -145,57 +146,57 @@ export default function YuwamLandingPage() {
     //     "Last-minute confidence building"
     //   ]
     // }
-   
+
   ];
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 to-gray-100">
+    <div className="w-full min-h-screen bg-linear-to-r from-blue-50 to-gray-100">
       {/* Hero Section */}
-   <div className="w-full bg-gradient-to-r from-[#4b79a1] to-[#283e51] text-white py-4 text-center">
-  <div className="max-w-4xl mx-auto px-6">
+      <div className="w-full bg-linear-to-r from-[#9fc9ee] to-[#283e51] text-white py-4 text-center">
+        <div className="max-w-4xl mx-auto px-6">
 
-    {/* Logo */}
-    <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.4)] border-4 border-white/20">
-      <img
-        src="/yuwam-icon.png"
-        alt="Yuwam Logo"
-        className="w-full h-full object-cover"
-      />
-    </div>
+          {/* Logo */}
+          <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.4)] border-4 border-white/20">
+            <img
+              src="/yuwam-icon.png"
+              alt="Yuwam Logo"
+              className="w-full h-full object-cover"
+            />
+          </div>
 
-    {/* Heading */}
-    <h1 className="text-6xl font-bold mb-2 tracking-wide drop-shadow-lg">
-      Yuwam Publications
-    </h1>
+          {/* Heading */}
+          <h1 className="text-5xl md:text-6xl  font-bold mb-2 tracking-wide drop-shadow-lg">
+            Yuwam Publications
+          </h1>
 
-    <p className="text-2xl mb-6 opacity-95 font-light">
-      India’s Most Trusted Competitive Exam Preparation Books
-    </p>
+          <p className="text-2xl mb-6 opacity-95 font-light">
+            India’s Most Trusted Competitive Exam Preparation Books
+          </p>
 
-    <p className="text-lg max-w-2xl mx-auto leading-relaxed opacity-95 mb-2 ">
-      Quality content, expert guidance, and proven results — Achieve new heights
-      in your preparation with Yuwam’s comprehensive study materials designed
-      for success in competitive examinations.
-    </p>
+          <p className="text-lg max-w-2xl mx-auto leading-relaxed opacity-95 mb-2 ">
+            Quality content, expert guidance, and proven results — Achieve new heights
+            in your preparation with Yuwam’s comprehensive study materials designed
+            for success in competitive examinations.
+          </p>
 
-    {/* Contact Section */}
-    <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl inline-block shadow-xl">
-      <div className="flex flex-col items-center gap-1 text-base leading-relaxed">
-        <p className="flex items-center gap-2">
-          <span className="text-xl">📞</span> +91 7073999036
-        </p>
-        <p className="flex items-center gap-2">
-          <span className="text-xl">📧</span> yuwampublications@gmail.com
-        </p>
-        <p className="flex items-center gap-2 text-center">
-          <span className="text-xl">📍</span> 63 Near ICIC Bank, Ambabari Shopping
-          Center, Ambabari, Jaipur-302039, Rajasthan, India
-        </p>
+          {/* Contact Section */}
+          <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl inline-block shadow-xl">
+            <div className="flex flex-col items-center gap-1 text-base leading-relaxed">
+              <p className="flex items-center gap-2">
+                <span className="text-xl">📞</span> +91 7073999036
+              </p>
+              <p className="flex items-center gap-2">
+                <span className="text-xl">📧</span> yuwampublications@gmail.com
+              </p>
+              <p className="flex items-center gap-2 text-center">
+                <span className="text-xl">📍</span> 63 Near ICIC Bank, Ambabari Shopping
+                Center, Ambabari, Jaipur-302039, Rajasthan, India
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-
-  </div>
-</div>
 
 
 
@@ -204,17 +205,16 @@ export default function YuwamLandingPage() {
         {sections.map((sec, index) => (
           <div
             key={index}
-            className={`flex flex-col md:flex-row items-center gap-12 ${
-              sec.reverse ? "md:flex-row-reverse" : ""
-            }`}
+            className={`flex flex-col md:flex-row items-center gap-12 ${sec.reverse ? "md:flex-row-reverse" : ""
+              }`}
           >
             {/* Image */}
             <div className="w-full md:w-1/2">
-            <img
-  src={sec.img}
-  alt={sec.title}
-  className="w-150  h-100 object-contain rounded-2xl   hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
-/>
+              <img
+                src={sec.img}
+                alt={sec.title}
+                className="w-150  h-100 object-contain rounded-2xl   hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
+              />
             </div>
 
             {/* Content */}
@@ -250,8 +250,8 @@ export default function YuwamLandingPage() {
             Ready to Start Your Preparation Journey?
           </h2>
           <p className="text-xl mb-8 opacity-90 leading-relaxed">
-            Join thousands of successful students who have achieved their dreams with Yuwam books. 
-            Our comprehensive study materials, expert guidance, and proven success rate will take 
+            Join thousands of successful students who have achieved their dreams with Yuwam books.
+            Our comprehensive study materials, expert guidance, and proven success rate will take
             your preparation to the next level and help you secure your desired rank in competitive examinations.
           </p>
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -266,8 +266,8 @@ export default function YuwamLandingPage() {
       </div>
 
       {/* Footer */}
-    <div className="w-full bg-gray-900 text-white py-12">
-        <div className="max-w-6xl mx-auto px-4">
+      <div className="w-full bg-gray-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2  gap-8 mb-8">
             {/* Contact Info */}
             <div className="text-center md:text-left">
@@ -303,16 +303,19 @@ export default function YuwamLandingPage() {
             <div className="text-center md:text-right">
               <h3 className="text-xl font-semibold mb-4 text-orange-400">Follow Us</h3>
               <div className="flex justify-center md:justify-end space-x-4">
-                {['🌐', '📘', '📸', '🐦'].map((icon, index) => (
+
+                {[Instagram, FacebookIcon, Twitter, Youtube].map((Icon, index) => (
                   <a
                     key={index}
                     href="#"
-                    className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-xl hover:bg-orange-500 transition-all duration-300 transform hover:scale-110"
+                    className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-2xl text-white hover:bg-orange-500 transition-all duration-300 transform hover:scale-110"
                   >
-                    {icon}
+                    <Icon />
                   </a>
                 ))}
+
               </div>
+
             </div>
           </div>
 
@@ -320,7 +323,7 @@ export default function YuwamLandingPage() {
           <div className="text-center pt-8 border-t border-gray-700">
             <p className="text-lg mb-2">© 2025 Yuwam Publications. All Rights Reserved.</p>
             <p className="text-gray-400">
-              Leading the way in competitive exam preparation since 2010
+              Leading the way in competitive exam preparation since 1977
             </p>
           </div>
         </div>
